@@ -1,7 +1,7 @@
 # survey
 Android Survey core project for a primary design practice using Android Studio.
 
-![image]()
+![image](https://github.com/PXNPXN/survey/blob/master/app/src/main/res/raw/showimage.gif)
 
 
 The functions of my survey app
