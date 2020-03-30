@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.wangnan:gesturelockview:1.0.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc96d6fb623e52ef419125e93247b28e/jetified-gesturelockview-1.0.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc96d6fb623e52ef419125e93247b28e/jetified-gesturelockview-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc96d6fb623e52ef419125e93247b28e/jetified-gesturelockview-1.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wangnan/gesturelockview/1.0.1/421c5d6345e5a513bfc89251742e5034e75f42d5/gesturelockview-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wangnan/gesturelockview/1.0.1/2aa3bf38ebd0e800e081fdc12acfc0f332836560/gesturelockview-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

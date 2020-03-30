@@ -1,45 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#00009688"
+    android:gravity="center">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Report"
-        android:textSize="40sp"
-        android:textColor="@color/colorBlack"
-        android:gravity="center"/>
+    <!--  Start : Your code should be within this block -->
 
     <ScrollView
-        android:id="@+id/sv_report"
-        android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:layout_marginTop="100dp">
+        android:layout_width="317dp"
+        android:layout_height="564dp">
 
         <LinearLayout
-            android:id="@+id/ll_report"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:autoText="false"
+                android:text="REPORT"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="36sp" />
 
+            <LinearLayout
+                android:id="@+id/answer_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:background="#99008577"
+
+                android:onClick="storeInApp"
+                android:text="STORE DATA INSIDE APP"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:background="#99008577"
+
+                android:onClick="storeInSDCard"
+                android:text="STORE DATA IN SD CARD"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99008577"
+                android:onClick="exit"
+                android:text="FINISH"
+                android:textSize="16sp" />
         </LinearLayout>
-
-
     </ScrollView>
 
-    <Button
-        android:layout_width="370dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="30dp"
-        android:onClick="skip"
-        android:background="@color/colorPrimary"
-        android:text="REVIEW" />
+
+
+    <!-- END    : Your code should be within this block -->
 
 </RelativeLayout>

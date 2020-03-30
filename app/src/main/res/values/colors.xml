@@ -2,6 +2,8 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#03DAC5</color>
-    <color name="colorBlack">#000033</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="point_color">#B0C4DE</color>
+    <color name="circle_color">#FF8247</color>
+    <color name="error_point_select_color">#FF0000</color>
 </resources>

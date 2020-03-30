@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00009688"
+    android:gravity="center">
+
+    <!--  Start : Your code should be within this block -->
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="320dp"
+        android:layout_height="500dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:text="WELCOME TO"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:text="TAKE PART IN OUR SURVEY!"
+            android:textColor="#4D4A4A"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:text="Before we start, here are things you should know:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="90sp"
+            android:text="@string/should_know_list"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20sp"
+            android:text="I accept these requests." />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearlayout"
+        android:background="#99008577"
+        android:onClick="goToSurvey"
+        android:text="LET'S START!"
+        android:textSize="16sp" />
+
+    <!-- END    : Your code should be within this block -->
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+{
+  "survey": {
+    "id": "00001",
+    "len": 3,
+    "questions": [
+      {
+        "type": "single",
+        "question": "How well do the professors teach at this university?",
+        "options": [
+          {"1": "Extremely well"},
+          {"2": "Very well"}
+        ]
+      },
+      {
+        "type" : "multiple",
+        "question": "Which of the following courses do you like?",
+        "options": [
+          {"1": "Mathematics"},
+          {"2": "Literature"},
+          {"3": "Computer"},
+          {"4": "Physics"},
+          {"5": "Linguistics"}
+        ]
+      },
+      {
+        "type": "fill-in",
+        "question": "What do you suggest for the school?"
+      }
+    ]
+  }
+}
